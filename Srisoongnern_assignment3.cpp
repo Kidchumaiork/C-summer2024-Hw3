@@ -54,10 +54,17 @@ public:
 
 int main()
 {
+    int n;
+    cout << "Please enter the value to print the odd Number = ";
+    cin >> n;
 
     Srisoongnern_assignment3 x1;
 
     assignment3_friend_total x2;
+
+    x2.setN(n);
+
+    x1.countOddNum(x2);
 
     return 0;
 }
